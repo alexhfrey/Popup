@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  brand_name: MyString
+  picture1: MyString
+  picture2: MyString
+  picture3: MyString
+  picture4: MyString
+  picture5: MyString
+  description: MyText
+  start: 2012-04-25
+  end: 2012-04-25
+  open: MyText
+  address: MyText
+  tag1: MyString
+  website: MyString
+  facebook: MyString
+
+two:
+  title: MyString
+  brand_name: MyString
+  picture1: MyString
+  picture2: MyString
+  picture3: MyString
+  picture4: MyString
+  picture5: MyString
+  description: MyText
+  start: 2012-04-25
+  end: 2012-04-25
+  open: MyText
+  address: MyText
+  tag1: MyString
+  website: MyString
+  facebook: MyString

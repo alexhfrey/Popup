@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: MyString
+  city: MyString
+  name: MyString
+  facebook_id: MyString
+  token: MyString
+  referral_campaign: MyString
+  referral_source: MyString
+
+two:
+  email: MyString
+  city: MyString
+  name: MyString
+  facebook_id: MyString
+  token: MyString
+  referral_campaign: MyString
+  referral_source: MyString

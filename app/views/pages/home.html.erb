@@ -1,0 +1,67 @@
+
+			
+		
+		<div class="container" id="main-content">
+			<div class="row">
+				<div class="span12" id="headline">
+				<h2>Discover Amazing Pop up Shops in your City.</h2>
+					<p>
+					Hey There, we're glad you're here. Love Popup is excited to introduce you to the hottest pop up shops in your city. We're just getting started, so if there are any bugs or you have suggestions, send us a note. Gracias!
+					</p>
+					</div>
+
+					<div class="eventlist">
+					<ul>
+					<% @events .each do |e| %>
+					
+					<li>
+					<%= image_tag e.picture1_url %>
+					<div class="eventtitlebox"></div>
+					<div class="eventlisttitle"><%= e.title %></div>
+					</li>
+					
+					<% end %>
+				</ul>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+						<strong>PAGES</strong>
+						<ul class="unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="2col.html">2 Column Page</a></li>
+							<li><a href="full.html">Full Width Page</a></li>
+						</ul>
+					</div>
+					<div class="span4">
+						<strong>LINKS</strong>
+						<ul class="unstyled">
+							<li><a href="http://http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a></li>
+							<li><a href="http://wrapbootstrap.com/" target="_blank">{wrap}bootstrap</a></li>
+							<li><a href="http://www.nosecreekweb.ca" target="_blank">Nose Creek Web Design</a></li>
+						</ul>
+					</div>
+					<div class="span4">
+						<strong>CONTACT</strong>
+						<address>
+							<ul class="unstyled">
+								<li>555.555.1243</li>
+								<li><a href="mailto:themes@nosecreekweb.ca">themes@nosecreekweb.ca</a></li>
+								<li>123 Business Blvd.<br />
+								Someplace, NY 43901</li>
+							</ul>
+						</address>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12" id="copyright">(c)2012 Bootstrap Business. All rights reserved.</div>
+				</div>
+			</div>
+		</footer>
+		

@@ -1,0 +1,77 @@
+<%= form_for @event, :html => { :multipart => true } do |f| %>
+  <% if @event.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @event.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :brand_name %><br />
+    <%= f.text_field :brand_name %>
+  </div>
+  <div class="field">
+    <%= f.label :picture1 %><br />
+    <%= f.file_field :picture1 %>
+  </div>
+  <div class="field">
+    <%= f.label :picture2 %><br />
+    <%= f.file_field :picture2 %>
+  </div>
+  <div class="field">
+    <%= f.label :picture3 %><br />
+    <%= f.file_field :picture3 %>
+  </div>
+  <div class="field">
+    <%= f.label :picture4 %><br />
+    <%= f.file_field :picture4 %>
+  </div>
+  <div class="field">
+    <%= f.label :picture5 %><br />
+    <%= f.file_field :picture5 %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :start %><br />
+    <%= f.date_select :start %>
+  </div>
+  <div class="field">
+    <%= f.label :end %><br />
+    <%= f.date_select :end %>
+  </div>
+  <div class="field">
+    <%= f.label :open %><br />
+    <%= f.text_area :open %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br />
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :tag1 %><br />
+    <%= f.text_field :tag1 %>
+  </div>
+  <div class="field">
+    <%= f.label :website %><br />
+    <%= f.text_field :website %>
+  </div>
+  <div class="field">
+    <%= f.label :facebook %><br />
+    <%= f.text_field :facebook %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
