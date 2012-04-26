@@ -85,4 +85,6 @@ class EventsController < ApplicationController
       format.json { head :ok }
     end
   end
+  def is_admin
+  end
 end
