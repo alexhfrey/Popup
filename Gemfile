@@ -13,6 +13,15 @@ gem 'json'
 gem 'carrierwave'
 gem 'omniauth-facebook'
 
+gem 'aws-s3'
+gem 'aws-sdk'
+gem 'jquery-rails'
+gem 'simple_form'
+gem 'client_side_validations'
+gem 'zocial' 
+gem 'thin'
+gem 'rmagick'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
