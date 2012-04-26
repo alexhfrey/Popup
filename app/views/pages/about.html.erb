@@ -1,0 +1,32 @@
+
+			
+		
+		<div class="container" id="main-content">
+			<div class="row">
+				<div class="span12" id="headline">
+				<h2>Discover Amazing Pop up Shops in your City.</h2>
+					<p>
+					Hey There, we're glad you're here. Love Popup is excited to introduce you to the hottest pop up shops in your city. We're just getting started, so if there are any bugs or you have suggestions, send us a note. Gracias!
+					</p>
+					<a href = "auth/facebook"><%= image_tag "facebookbutton.png" %> </a>
+					</div>
+
+					<div class="eventlist">
+					<ul>
+					<% @events .each do |e| %>
+					
+					<li>
+					<%= image_tag e.picture1_url %>
+					<div class="eventtitlebox"></div>
+					<div class="eventlisttitle"><%= e.title %></div>
+					</li>
+					
+					<% end %>
+				</ul>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
