@@ -1,8 +1,10 @@
 Popup::Application.routes.draw do
+  get "sessions/create"
+
   get "pages/home"
 
   resources :shares
-
+  match "/auth/:provider/callback" => "sessions#create"
   resources :events
   root :to => 'pages#home'
   # The priority is based upon order of creation:
