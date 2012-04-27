@@ -70,7 +70,7 @@ p{margin:0 0 10.5px;font-weight:300;font-family:"Helvetica Neue",Helvetica,Arial
 .lead{margin-bottom:21px;font-size:20px;font-weight:200;line-height:31.5px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-weight:bold;color:#333333;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
 h1{font-size:30px;line-height:42px;}h1 small{font-size:18px;}
-h2{font-size:28px;line-height:42px;}h2 small{font-size:18px;}
+h2{font-size:26px;color:#7A7A7A;line-height:42px;font-family:'Arvo',serif;}h2 small{font-size:18px;}
 h3{line-height:21px;font-size:18px;}h3 small{font-size:14px;}
 h4,h5,h6{line-height:21px;}
 h4{font-size:16px;color:#FFFFFF;font-family:'Arvo',serif;}h4 small{font-size:12px;}
@@ -655,7 +655,7 @@ header{background-color:#333333;background-image:url(/img/dvsup.png); box-shadow
 #main-content{clear:both;}#main-content .row{margin-top:20px;}
 #featured.row{margin-top:10px;}#featured.row p{text-align:justify;}
 #read-more.row{margin-top:0;}
-#headline{border-bottom:1px dotted #8a8a8a;text-align:center;margin-right:10px;margin-bottom:20px;}#headline h2{font-family:'Arvo',serif;color:#555555;font-weight:400;}
+#headline{border-bottom:1px dotted #8a8a8a;text-align:center;margin-right:10px;margin-bottom:20px;}#headline h2{font-family:'Arvo',serif;color:#E55451;font-weight:400;font-size:34px;}
 #sidebar{background-color:#ffffff;-webkit-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);-moz-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);}#sidebar input[type="text"],#sidebar textarea{width:260px;}
 #sidebar .content{padding:10px;}
 footer{margin-top:20px;padding:20px 0;background-color:#333333;background-image:url(/img/ftbg.png);color:#eeeeee;}
@@ -687,10 +687,21 @@ background:#FFF;
 -moz-box-shadow: 0 0 5px #888;
 -webkit-box-shadow: 0 0 5px#888;
 box-shadow: 0 0 5px #888;
-padding: 5px 5px 5px 15px; 
+padding: 5px 5px 25px 15px; 
 margin-top:5px;
 float:left;
-width: 100%;}
+width: 98.5%;}
+
+.smallbox {
+background:#FFF;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+padding: 5px 5px 25px 15px; 
+margin-top:15px;
+float:left;
+width: 95%;
+margin-right: 5px;}
 
 .eventlist {
 margin-top:10px;

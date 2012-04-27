@@ -3,6 +3,18 @@ Popup::Application.routes.draw do
 
   get "pages/home"
 
+  get "pages/about"
+  match "/about" => "pages#about"
+
+  get "pages/ambassador"
+  match "/ambassador" => "pages#ambassador"
+  
+  get "pages/contact"
+  match "/contact" => "pages#contact"
+  
+  get "pages/merchants"
+  match "/merchants" => "pages#merchants"
+
   resources :shares
   match "/auth/:provider/callback" => "sessions#create"
   resources :events
