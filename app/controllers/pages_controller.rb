@@ -15,4 +15,9 @@ class PagesController < ApplicationController
   def merchants
   end
   
+  def welcome
+  render :layout=> "layoutwelcome"
+  #...
+  end
+  
 end
