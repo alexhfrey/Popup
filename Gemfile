@@ -6,8 +6,15 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'sqlite3', '1.3.5'
+gem 'sqlite3'
 end
+
+group :production do
+gem 'pg'
+end
+
+
+
 
 gem 'json'
 gem 'carrierwave'
@@ -19,7 +26,6 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'client_side_validations'
 gem 'zocial' 
-gem 'thin'
 gem 'rmagick'
 
 # Gems used only for assets and not required
