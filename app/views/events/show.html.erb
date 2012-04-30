@@ -47,7 +47,7 @@ ItemURL=http://site.com/products/shirt
 					<p><%= @event.open %>
 					</p>
 					<button type="submit" class="btn btn-danger btn-large">RSVP for Event</button>
-					<button type="submit" class="btn btn-large">Add to Watchlist</button>
+					
 				</div>
 				
 				
@@ -55,9 +55,7 @@ ItemURL=http://site.com/products/shirt
 <div class="span4">
 <div class="smallbox">
 <h2>Shop Location  <%= image_tag "whereicon.png" %></h2>
-<p>212 5th Street, NYC</p>
-<iframe width="270" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=212+5th+avenue+new+york&amp;ie=UTF8&amp;hq=&amp;hnear=212+5th+Ave,+New+York,+10010&amp;gl=us&amp;t=m&amp;ll=40.744266,-73.989487&amp;spn=0.016257,0.021544&amp;z=14&amp;output=embed&iwloc=near"></iframe><br /><small><a href="http://maps.google.com/maps?q=212+5th+avenue+new+york&amp;ie=UTF8&amp;hq=&amp;hnear=212+5th+Ave,+New+York,+10010&amp;gl=us&amp;t=m&amp;ll=40.744266,-73.989487&amp;spn=0.016257,0.021544&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
-
+<p><%= @event.map.html_safe %>  </p>
 </div>
 </div>
 
@@ -65,6 +63,7 @@ ItemURL=http://site.com/products/shirt
 <div class="smallbox">
 <h2>Sample Product</h2>
 <p>Here is a taste!</p>
+<<<<<<< HEAD
 <%= image_tag "diorpic.jpg" %>
 <a href="http://pinterest.com/pin/create/button/?url=www.facebook.com%2Ferikeliason&media=http%3A%2F%2Fherhis.com%2Fproduct_img%2FSh_Dior_08-09_2.JPG&description=The%202012%20Fall%20line%20leader%3A%20shoe%2C%20ftw!%20" class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
 
@@ -81,6 +80,9 @@ ItemURL=http://site.com/products/shirt
   })();
 </script>
 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fsocialearth&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=185906091473461" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+=======
+<%= image_tag @event.product1_url %>
+>>>>>>> 99b756751cc5bd72f5bd38b3bf50da8796daefc0
 </div>
 </div>
 
@@ -88,7 +90,7 @@ ItemURL=http://site.com/products/shirt
 <div class="smallbox">
 <h2>Tweet-a-licious  <%= image_tag "birdicon.png" %></h2>
 
-<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<%= @event.twitter.html_safe %>
 <script>
 new TWTR.Widget({
   version: 2,
@@ -126,7 +128,7 @@ new TWTR.Widget({
 <div class="smallbox">
 <h2>Sample Product</h2>
 <p>Another taste!</p>
-<%= image_tag "diortwo.JPG" %>
+<%= image_tag @event.product2_url %>
 </div>
 </div>
 
@@ -134,7 +136,7 @@ new TWTR.Widget({
 <div class="smallbox">
 <h2>Dior fan love  <%= image_tag "hearticon.png" %></h2>
 <p>Fans galore!</p>
-<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fdior&amp;width=270&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=185906091473461" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:258px;" allowTransparency="true"></iframe>
+<%= @event.facebook.html_safe %>
 </div>
 </div>
 

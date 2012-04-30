@@ -15,7 +15,10 @@ Popup::Application.routes.draw do
   get "pages/merchants"
   match "/merchants" => "pages#merchants"
   
-   get "pages/welcome"
+  get "pages/city"
+  match "/city" => "pages#city"
+  
+  get "pages/welcome"
   match "/welcome" => "pages#welcome"
 
   resources :shares
