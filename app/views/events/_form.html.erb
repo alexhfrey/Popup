@@ -39,6 +39,24 @@
     <%= f.label :picture5 %><br />
     <%= f.file_field :picture5 %>
   </div>
+  
+  <div class="field">
+    <%= f.label :product1 %><br />
+    <%= f.file_field :product1 %>
+  </div>
+  <div class="field">
+    <%= f.label :product2 %><br />
+    <%= f.file_field :product2 %>
+  </div>
+  
+   <div class="field">
+    <%= f.label :product1_info %><br />
+    <%= f.text_area :product1_info %>
+  </div>
+   <div class="field">
+    <%= f.label :product2_info %><br />
+    <%= f.text_area :product2_info %>
+  </div>
   <div class="field">
     <%= f.label :description %><br />
     <%= f.text_area :description %>
@@ -56,12 +74,16 @@
     <%= f.text_area :open %>
   </div>
   <div class="field">
-    <%= f.label :address %><br />
-    <%= f.text_area :address %>
+    <%= f.label :map %> Embed google map <br />
+    <%= f.text_area :map %>
   </div>
   <div class="field">
-    <%= f.label :tag1 %><br />
+   <p>Category (Food, Fashion, Art)</p>
     <%= f.text_field :tag1 %>
+  </div>
+  <div class = "field">
+	 <p>City</p>
+      <%= f.text_field :city %>
   </div>
   <div class="field">
     <%= f.label :website %><br />
@@ -69,7 +91,11 @@
   </div>
   <div class="field">
     <%= f.label :facebook %><br />
-    <%= f.text_field :facebook %>
+    <%= f.text_area :facebook %>
+  </div>
+  <div class="field">
+  <p>Twitter embed code</p>
+    <%= f.text_area :twitter %>
   </div>
   <div class="actions">
     <%= f.submit :class=>"btn btn-danger btn-large" %>
