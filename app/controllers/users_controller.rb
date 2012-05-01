@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 	u = current_user
 	u.city = params[:city]
 	u.save
-	redirect_to pages_home_path and return
+	redirect_to '/events' and return
   end
   end
 end
