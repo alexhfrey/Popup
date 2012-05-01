@@ -14,6 +14,12 @@ Popup::Application.routes.draw do
   
   get "pages/merchants"
   match "/merchants" => "pages#merchants"
+  
+  get "pages/city"
+  match "/city" => "pages#city"
+  
+  get "pages/welcome"
+  match "/welcome" => "pages#welcome"
 
   resources :shares
   match "/auth/:provider/callback" => "sessions#create"
