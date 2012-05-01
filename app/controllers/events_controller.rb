@@ -8,9 +8,9 @@ class EventsController < ApplicationController
 		redirect_to pages_welcome_path and return
 	end 
 	if params[:cat]
-    @events = Event.find_all_by_tag1(params[:cat])
+    @events = Event.find_all_by_tag1_and_city(params[:cat], @user.city)
 	else
-	@events = Event.all
+	@events = Event.find_all_by_city(@user.city)
 	end
 
     respond_to do |format|
