@@ -639,11 +639,11 @@ img.pull-left,img.pull-right{margin:5px 10px 10px 10px;border:3px solid #999999;
 img.pull-left{margin-left:0;}
 img.pull-right{margin-right:0;}
 .red{color:#E55451;}
-body{background-image:url(/img/popupshopbg2.jpg);}
-header{background-color:#333333;background-image:url(/img/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
+body{background-image:url(/images/popupshopbg2.jpg);}
+header{background-color:#333333;background-image:url(/images/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
 #logo{padding:20px 0;font-family:'Arvo',serif;font-weight:400;}#logo a{color:#eeeeee;}#logo a:hover{text-decoration:none;}
 #navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#eeeeee;padding:5px 5px;margin:29px 0 29px 10px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
-#top-slider{background-color:#333333;background-image:url(/img/dvsup.png);height:125px;margin-bottom:125px;}#top-slider h2,#top-slider p{color:#eeeeee;}
+#top-slider{background-color:#333333;background-image:url(/images/dvsup.png);height:125px;margin-bottom:125px;}#top-slider h2,#top-slider p{color:#eeeeee;}
 #top-slider .slides_container,#top-slider .slides_container div{width:930px;height:240px;}
 #top-slider .slides_container{border:5px solid #555555;background-color:#555555;overflow:hidden;}
 #top-slider div.overlay-bottom{width:100%;background:url(img/overlay-bg.png);font-size:30px;position:relative;top:158px;padding:20px;font-weight:400;height:auto;}
@@ -661,7 +661,7 @@ header{background-color:#333333;background-image:url(/img/dvsup.png); box-shadow
 #headlineme h3{font-family:'Arvo',serif;color:#ffffff;font-weight:400;font-size:30px;line-height:36px;}
 #sidebar{background-color:#ffffff;-webkit-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);-moz-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);}#sidebar input[type="text"],#sidebar textarea{width:260px;}
 #sidebar .content{padding:10px;}
-footer{margin-top:20px;padding:20px 0;background-color:#333333;background-image:url(/img/ftbg.png);color:#eeeeee;}
+footer{margin-top:20px;padding:20px 0;background-color:#333333;background-image:url(/images/ftbg.png);color:#eeeeee;}
 #copyright{font-size:12px;}
 .subnav-fixed {
     border-color: #D5D5D5;
