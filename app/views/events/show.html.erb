@@ -15,14 +15,14 @@
 <div class="carousel-inner">
 
 <div class="active item">
-<%= @event.share_1 %>
+<%= @event.share_1.html_safe %>
 <%= image_tag @event.picture1_url, :class=> "pull-left" %>
 </div>
 
 
 <% if @event.share_2 %>
 <div class="item">
-<%= @event.share_2 %>
+<%= @event.share_2.html_safe %>
 <%= image_tag @event.picture2_url, :class=> "pull-left" %>
 </div>
 
@@ -30,21 +30,21 @@
 
 <% if @event.share_3 %>
 <div class="item">
-<%= @event.share_3 %>
+<%= @event.share_3.html_safe %>
 <%= image_tag @event.picture3_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
 <% if @event.share_4 %>
 <div class="item">
-<%= @event.share_4 %>
+<%= @event.share_4.html_safe %>
 <%= image_tag @event.picture4_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
 <% if @event.share_5 %>
 <div class="item">
-<%= @event.share_5 %>
+<%= @event.share_5.html_safe %>
 <%= image_tag @event.picture5_url, :class=> "pull-left" %>
 </div>
 <% end %>
