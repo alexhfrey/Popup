@@ -83,7 +83,7 @@
 <h2>Sample Product</h2>
 <p>Here is a taste!</p>
 <%= image_tag @event.product1_url %>
-<div><%= @event.product1_info %> </div>
+<div><%= @event.product1_info.html_safe %> </div>
 </div>
 </div>
 
@@ -104,7 +104,7 @@
 <h2>Sample Product</h2>
 <p>Another taste!</p>
 <%= image_tag @event.product2_url %>
-<div><%= @event.product2_info %>
+<div><%= @event.product2_info.html_safe %>
 </div>
 </div>
 
