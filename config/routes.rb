@@ -1,7 +1,10 @@
 Popup::Application.routes.draw do
+  get "users/edit"
+
   get "sessions/create"
 
   get "pages/home"
+  resources :users, :only => [:edit]
 
   get "pages/about"
   match "/about" => "pages#about"

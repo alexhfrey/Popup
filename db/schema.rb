@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120430170659) do
+ActiveRecord::Schema.define(:version => 20120501183923) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
@@ -37,6 +37,12 @@ ActiveRecord::Schema.define(:version => 20120430170659) do
     t.string   "city"
     t.text     "twitter"
     t.text     "map"
+    t.text     "share_1"
+    t.text     "share_2"
+    t.text     "share_3"
+    t.text     "share_4"
+    t.text     "share_5"
+    t.text     "share_tags"
   end
 
   create_table "shares", :force => true do |t|

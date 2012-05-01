@@ -3,6 +3,10 @@ class EventsController < ApplicationController
   # GET /events.json
   before_filter :is_admin, :only => [:edit, :update, :new, :create, :destroy]
   def index
+    @user = current_user
+	if @user.nil?
+		redirect_to pages_welcome_path and return
+	end 
 	if params[:cat]
     @events = Event.find_all_by_tag1(params[:cat])
 	else
