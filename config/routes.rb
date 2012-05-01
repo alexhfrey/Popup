@@ -24,7 +24,7 @@ Popup::Application.routes.draw do
   resources :shares
   match "/auth/:provider/callback" => "sessions#create"
   resources :events
-  root :to => 'pages#home'
+  root :to => 'pages#welcome'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
