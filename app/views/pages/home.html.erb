@@ -8,6 +8,9 @@
 					<p>
 					Hey There, we're glad you're here. Love Popup is excited to introduce you to the hottest pop up shops in your city. We're just getting started, so if there are any bugs or you have suggestions, send us a note. Gracias!
 					</p>
+
+					
+
 					</div>
 
 					<div class="eventlist">
@@ -15,9 +18,9 @@
 					<% @events .each do |e| %>
 					
 					<li>
-					<%= image_tag e.picture1_url %>
+					<%= link_to image_tag(e.picture1_url), e %>
 					<div class="eventtitlebox"></div>
-					<div class="eventlisttitle"><%= e.title %></div>
+					<div class="eventlisttitle"><%=link_to e.title, e %></div>
 					</li>
 					
 					<% end %>

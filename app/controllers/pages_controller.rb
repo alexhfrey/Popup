@@ -19,6 +19,9 @@ class PagesController < ApplicationController
   end
   
   def welcome
+  if current_user 
+	redirect_to pages_home_path and return
+  end
   render :layout=> "layoutwelcome"
   #...
   end
