@@ -644,7 +644,7 @@ img.pull-left,img.pull-right{margin:5px 10px 10px 10px;border:3px solid #999999;
 img.pull-left{margin-left:0;}
 img.pull-right{margin-right:0;}
 .red{color:#E55451;}
-body{background-image:url(/img/groovepaper.png);}
+body{background-image:url(/images/groovepaper.png);}
 header{background-color:#333333;background-image:url(/images/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
 #logo{padding:20px 0;font-family:'Arvo',serif;font-weight:400;}#logo a{color:#eeeeee;}#logo a:hover{text-decoration:none;}
 #navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#eeeeee;padding:5px 5px;margin:29px 0 29px 10px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
@@ -719,7 +719,7 @@ display:inline;
 float:left;
 width:430px;
 height:430px;
-background:url(/img/bgstripe.png); 
+background:url(/images/bgstripe.png); 
 border-style: solid; 
 border-width:0px; 
 border-color:#D4D4D4; 

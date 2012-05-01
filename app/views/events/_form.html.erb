@@ -10,91 +10,113 @@
       </ul>
     </div>
   <% end %>
-
+  <h2>Basic Details</h2>
+  <br />
   <div class="field">
-    <%= f.label :title %><br />
+    <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :brand_name %><br />
+    <%= f.label :brand_name %>
     <%= f.text_field :brand_name %>
   </div>
+    <br />
   <div class="field">
-    <%= f.label :picture1 %><br />
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <hr>
+    <h2>Slider Photos</h2>
+      <br />
+  <div class="field">
+    <%= f.label :picture1 %>
     <%= f.file_field :picture1 %>
   </div>
+    <br />
   <div class="field">
     <p>Share tags for picture</p>
     <%= f.text_field :share_1 %>
   </div>
+    <br />
   <div class="field">
-    <%= f.label :picture2 %><br />
+    <%= f.label :picture2 %>
     <%= f.file_field :picture2 %>
   </div>
   <div class="field">
     <p>Share tags for picture</p>
     <%= f.text_field :share_2 %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :picture3 %><br />
+    <%= f.label :picture3 %>
     <%= f.file_field :picture3 %>
   </div>
   <div class="field">
     <p>Share tags for picture</p>
     <%= f.text_field :share_3 %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :picture4 %><br />
+    <%= f.label :picture4 %>
     <%= f.file_field :picture4 %>
   </div>
   <div class="field">
     <p>Share tags for picture</p>
     <%= f.text_field :share_4 %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :picture5 %><br />
+    <%= f.label :picture5 %>
     <%= f.file_field :picture5 %>
   </div>
   <div class="field">
     <p>Share tags for picture</p>
     <%= f.text_field :share_5 %>
   </div>
+  <hr>
+  <h2>
+  <h2>Product Photos</h2>
+  <br />
   
   <div class="field">
-    <%= f.label :product1 %><br />
+    <%= f.label :product1 %>
     <%= f.file_field :product1 %>
   </div>
   <div class="field">
-    <%= f.label :product2 %><br />
-    <%= f.file_field :product2 %>
-  </div>
-  
-   <div class="field">
-    <%= f.label :product1_info %><br />
+    <%= f.label :product1_info %>
     <%= f.text_area :product1_info %>
   </div>
+  <br />
+  <div class="field">
+    <%= f.label :product2 %>
+    <%= f.file_field :product2 %>
+  </div>
    <div class="field">
-    <%= f.label :product2_info %><br />
+    <%= f.label :product2_info %>
     <%= f.text_area :product2_info %>
   </div>
+  <br />
+  <hr>   
+  <h2>Highlight Boxes</h2>
+
   <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :start %><br />
+    <%= f.label :start %>
     <%= f.date_select :start %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :end %><br />
+    <%= f.label :end %>
     <%= f.date_select :end %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :open %><br />
+    <%= f.label :open %>
     <%= f.text_area :open %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :map %> Embed google map <br />
+    <%= f.label :map %>  
     <%= f.text_area :map %>
   </div>
   <div class="field">
