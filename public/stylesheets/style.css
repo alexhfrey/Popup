@@ -647,6 +647,10 @@ img.pull-right{margin-right:0;}
 body{background-image:url(/images/groovepaper.png);}
 header{background-color:#333333;background-image:url(/images/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
 #logo{padding:20px 0;font-family:'Arvo',serif;font-weight:400;}#logo a{color:#eeeeee;}#logo a:hover{text-decoration:none;}
+.beta {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+}
 #navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#eeeeee;padding:5px 5px;margin:29px 0 29px 10px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
 #top-slider{background-color:#333333;background-image:url(/images/dvsup.png);height:125px;margin-bottom:125px;}#top-slider h2,#top-slider p{color:#eeeeee;}
 #top-slider .slides_container,#top-slider .slides_container div{width:930px;height:240px;}
@@ -738,15 +742,15 @@ margin-bottom: 30px;}
     
 .eventlisttitle {
 float:left;
-width: 291px; 
-line-height: 30px;
+width: 320px; 
+line-height: 27px;
 font-size: 20px; 
 color: #ffffff; 
 text-shadow: 1px 1px #747170;
 padding-left: 7px;
 padding-top: 0px;
 padding-right: 0px;
-margin-top: -435px;
+margin-top: -400px;
 z-index: 3; 
 position: relative; 
 font-family: Century Gothic, sans-serif;
@@ -758,20 +762,12 @@ font-weight: bold;
 .eventlisttitle a:active {color:#ffffff;font-size:22px;}
 .eventlisttitle a:hover {color:#ffffff;font-size:22px;}
 
-
-
-
-.eventlisttitle a:hover {
-text-decoration: underline; 
-text-color: #E55451; 
-}
-
 .eventtitlebox {
-height: 40px;
-width: 433px; 
+height: 70px;
+width: 333px; 
 float:left;
 background-color: #000000; 
-margin-top: -436px;
+margin-top: -406px;
 opacity:0.6;
 filter:alpha(opacity=60); /* For IE8 and earlier */
 z-index: 2; 

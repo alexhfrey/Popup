@@ -14,10 +14,11 @@
 					<ul>
 					<% @events .each do |e| %>
 					
-					<li>
-					<%= link_to image_tag(e.picture1_url), e %>
+					<li><a href="/events/<%= e.id %>">
+					<%= image_tag(e.picture1_url) %>
 					<div class="eventtitlebox"></div>
-					<span class="eventlisttitle"><%= link_to e.title, e %></span>
+					<span class="eventlisttitle"><%= e.title %></span>
+					</a>
 					</li>
 					
 					<% end %>

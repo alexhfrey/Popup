@@ -1,12 +1,12 @@
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 		
-		<div class="container" id="main-content">
-			<div class="row">
-				<div class="span12">
-				<div class="categorybox">
-				<div id="headline">
-					<h2><%= @event.title %> </h2>
-					</div>
+<div class="container" id="main-content">
+<div class="row">
+<div class="span12">
+<div class="categorybox">
+<div id="headline">
+<h2><%= @event.title %> </h2>
+</div>
 					
 <div class="span6 columns">
 <div id="myCarousel" class="carousel slide">
@@ -20,7 +20,7 @@
 </div>
 
 
-<% if @event.share_2 %>
+<% if @event.share_2.present? %>
 <div class="item">
 <%= @event.share_2.html_safe %>
 <%= image_tag @event.picture2_url, :class=> "pull-left" %>
@@ -28,21 +28,21 @@
 
 <% end %>
 
-<% if @event.share_3 %>
+<% if @event.share_3.present? %>
 <div class="item">
 <%= @event.share_3.html_safe %>
 <%= image_tag @event.picture3_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
-<% if @event.share_4 %>
+<% if @event.share_4.present? %>
 <div class="item">
 <%= @event.share_4.html_safe %>
 <%= image_tag @event.picture4_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
-<% if @event.share_5 %>
+<% if @event.share_5.present? %>
 <div class="item">
 <%= @event.share_5.html_safe %>
 <%= image_tag @event.picture5_url, :class=> "pull-left" %>
@@ -71,6 +71,7 @@
 				
 				
 <div class="row">				
+
 <div class="span4">
 <div class="smallbox">
 <h2>Shop Location  <%= image_tag "whereicon.png" %></h2>
@@ -80,8 +81,7 @@
 
 <div class="span4">
 <div class="smallbox">
-<h2>Sample Product</h2>
-<p>Here is a taste!</p>
+<h2>Shop Sample</h2>
 <%= image_tag @event.product1_url %>
 <div><%= @event.product1_info.html_safe %> </div>
 </div>
@@ -90,21 +90,20 @@
 <div class="span4">
 <div class="smallbox">
 <h2>Tweet-a-licious  <%= image_tag "birdicon.png" %></h2>
-
 <%= @event.twitter.html_safe %>
-
 </div>
 </div>
+
 </div>
 
 
-<div class="row">				
+<div class="row">	
+
 <div class="span4">
 <div class="smallbox">
-<h2>Sample Product</h2>
-<p>Another taste!</p>
+<h2>Shop Sample</h2>
 <%= image_tag @event.product2_url %>
-<div><%= @event.product2_info.html_safe %>
+<div><%= @event.product2_info.html_safe %></div>
 </div>
 </div>
 
@@ -129,7 +128,7 @@ Note: 'Yes I'm Going is shared on Facebook'
 </div>
 </div>
 
-
+        </div>
 		</div>		
 		</div>
 		</div>
