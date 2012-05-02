@@ -20,7 +20,7 @@
 </div>
 
 
-<% if @event.share_2 %>
+<% if @event.share_2.present? %>
 <div class="item">
 <%= @event.share_2.html_safe %>
 <%= image_tag @event.picture2_url, :class=> "pull-left" %>
@@ -28,21 +28,21 @@
 
 <% end %>
 
-<% if @event.share_3 %>
+<% if @event.share_3.present? %>
 <div class="item">
 <%= @event.share_3.html_safe %>
 <%= image_tag @event.picture3_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
-<% if @event.share_4 %>
+<% if @event.share_4.present? %>
 <div class="item">
 <%= @event.share_4.html_safe %>
 <%= image_tag @event.picture4_url, :class=> "pull-left" %>
 </div>
 <% end %>
 
-<% if @event.share_5 %>
+<% if @event.share_5.present? %>
 <div class="item">
 <%= @event.share_5.html_safe %>
 <%= image_tag @event.picture5_url, :class=> "pull-left" %>
@@ -134,5 +134,6 @@ Note: 'Yes I'm Going is shared on Facebook'
 		</div>
 		</div>
 		</div>
+		<script>$('.carousel').carousel()</script>
 		
 		
