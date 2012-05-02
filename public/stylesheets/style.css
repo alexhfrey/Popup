@@ -738,18 +738,28 @@ margin-bottom: 30px;}
     
 .eventlisttitle {
 float:left;
-height: 35px;
 width: 291px; 
-line-height: 35px;
-font-size: 22px; 
+line-height: 30px;
+font-size: 20px; 
 color: #ffffff; 
+text-shadow: 1px 1px #747170;
 padding-left: 7px;
 padding-top: 0px;
 padding-right: 0px;
 margin-top: -435px;
 z-index: 3; 
 position: relative; 
+font-family: Century Gothic, sans-serif;
+font-weight: bold;
 }
+
+.eventlisttitle a:link {color:#ffffff;font-size:22px;}
+.eventlisttitle a:visited {color:#ffffff;font-size:22px;}
+.eventlisttitle a:active {color:#ffffff;font-size:22px;}
+.eventlisttitle a:hover {color:#ffffff;font-size:22px;}
+
+
+
 
 .eventlisttitle a:hover {
 text-decoration: underline; 
@@ -826,9 +836,38 @@ position: relative;
 text-align: center;
 }
 
+.citylisttitle {
+float:left;
+height: 35px;
+width: 173px; 
+line-height: 24px;
+font-size: 22px; 
+color: #ffffff;
+padding-top: 0px;
+padding-right: 0px;
+margin-top: -90px;
+text-shadow: 1px 1px #747170;
+z-index: 3; 
+font-family: Century Gothic, sans-serif;
+font-weight: bold;
+position: relative; 
+text-align: center;
+}
+.citylisttitle a:link {color:#ffffff;font-size:22px;}
+.citylisttitle a:visited {color:#ffffff;font-size:22px;}
+.citylisttitle a:active {color:#ffffff;font-size:22px;}
+.citylisttitle a:hover {color:#ffffff;font-size:22px;}
+
+
 .citylisttitle:link {
 color: #ffffff; 
 text-decoration: none;  
+}
+
+.a.zzz:link {
+color:#ffffff;
+font-size: 14px;
+
 }
 
 .cityspace {
