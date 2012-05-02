@@ -26,8 +26,12 @@ gem 'client_side_validations'
 gem 'zocial' 
 gem 'rmagick'
 gem 'fog'
-gem 'pg'
 gem 'jquery-rails'
+
+group :production do
+gem 'pg' 
+end  
+
 
 # Gems used only for assets and not required
 # in production environments by default.
