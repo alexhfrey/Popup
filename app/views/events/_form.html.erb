@@ -14,17 +14,27 @@
   <br />
   <div class="field">
     <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title , :size => "25x5" %>
   </div>
   <br />
   <div class="field">
     <%= f.label :brand_name %>
     <%= f.text_field :brand_name %>
   </div>
+  <br />
+   <div class = "field">
+	 <p>City</p>
+      <%= f.text_field :city %>
+  </div>
     <br />
+     <div class="field">
+   <p>Category (Food, Fashion, Art)</p>
+    <%= f.text_field :tag1 %>
+  </div>
+  <br />
   <div class="field">
     <%= f.label :description %>
-    <%= f.text_area :description %>
+    <%= f.text_area :description , :size => "25x5"%>
   </div>
   <hr>
     <h2>Slider Photos</h2>
@@ -35,8 +45,8 @@
   </div>
     <br />
   <div class="field">
-    <p>Share tags for picture</p>
-    <%= f.text_field :share_1 %>
+    <p>Share tags for picture (<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :share_1 , :size => "25x5"%>
   </div>
     <br />
   <div class="field">
@@ -44,8 +54,8 @@
     <%= f.file_field :picture2 %>
   </div>
   <div class="field">
-    <p>Share tags for picture</p>
-    <%= f.text_field :share_2 %>
+    <p>Share tags for picture (<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :share_2 , :size => "25x5"%>
   </div>
   <br />
   <div class="field">
@@ -53,8 +63,8 @@
     <%= f.file_field :picture3 %>
   </div>
   <div class="field">
-    <p>Share tags for picture</p>
-    <%= f.text_field :share_3 %>
+    <p>Share tags for picture (<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :share_3 , :size => "25x5"%>
   </div>
   <br />
   <div class="field">
@@ -62,8 +72,8 @@
     <%= f.file_field :picture4 %>
   </div>
   <div class="field">
-    <p>Share tags for picture</p>
-    <%= f.text_field :share_4 %>
+    <p>Share tags for picture (<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :share_4 , :size => "25x5"%>
   </div>
   <br />
   <div class="field">
@@ -71,8 +81,8 @@
     <%= f.file_field :picture5 %>
   </div>
   <div class="field">
-    <p>Share tags for picture</p>
-    <%= f.text_field :share_5 %>
+    <p>Share tags for picture (<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :share_5 , :size => "25x5"%>
   </div>
   <hr>
   <h2>
@@ -85,7 +95,8 @@
   </div>
   <div class="field">
     <%= f.label :product1_info %>
-    <%= f.text_area :product1_info %>
+    <p>(<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :product1_info , :size => "25x5" %>
   </div>
   <br />
   <div class="field">
@@ -94,7 +105,8 @@
   </div>
    <div class="field">
     <%= f.label :product2_info %>
-    <%= f.text_area :product2_info %>
+    <p>(<a href="http://pinterest.com/about/goodies/">Pinterest</a>)</p>
+    <%= f.text_area :product2_info , :size => "25x5"%>
   </div>
   <br />
   <hr>   
@@ -112,32 +124,31 @@
   <br />
   <div class="field">
     <%= f.label :open %>
-    <%= f.text_area :open %>
+    <%= f.text_area :open , :size => "25x5"%>
   </div>
   <br />
   <div class="field">
-    <%= f.label :map %>  
-    <%= f.text_area :map %>
+    <%= f.label :map %>   
+    <p><a href="http://maps.google.com/maps?hl=en&tab=wl&authuser=0">Website</a></p>
+    <p>&output=embed<b>&iwloc=near</b></p>
+    <%= f.text_area :map , :size => "25x5"%>
   </div>
+  <br />
   <div class="field">
-   <p>Category (Food, Fashion, Art)</p>
-    <%= f.text_field :tag1 %>
-  </div>
-  <div class = "field">
-	 <p>City</p>
-      <%= f.text_field :city %>
-  </div>
-  <div class="field">
-    <%= f.label :website %><br />
+    <%= f.label :website %>
     <%= f.text_field :website %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :facebook %><br />
-    <%= f.text_area :facebook %>
+    <%= f.label :facebook %>
+    <p><a href="https://developers.facebook.com/docs/reference/plugins/like-box/">Website</a></p>
+    <%= f.text_area :facebook , :size => "25x5"%>
   </div>
+    <br />
   <div class="field">
   <p>Twitter embed code</p>
-    <%= f.text_area :twitter %>
+  <p><a href="https://twitter.com/about/resources/widgets/widget_profile">Website</a></p>
+    <%= f.text_area :twitter , :size => "25x5"%>
   </div>
   <div class="actions">
     <%= f.submit :class=>"btn btn-danger btn-large" %>

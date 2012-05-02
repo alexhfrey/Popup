@@ -13,22 +13,22 @@
 <ul>
 <li>
 <%= link_to image_tag("nyc.jpg"), edit_user_path(@user, :city => "New York City") %>
-<div class="citylisttitle">New York</div>
+<div class="citylisttitle"><%= link_to "New York" , edit_user_path(@user, :city => "New York City") %></div>
 </li>
 
 <li>
 <%= link_to image_tag("la.jpg"), edit_user_path(@user, :city => "Los Angeles") %>
-<div class="citylisttitle">Los Angeles</div>
+<div class="citylisttitle"><%= link_to "Los Angeles" , edit_user_path(@user, :city => "Los Angeles") %></div>
 </li>
 
 <li>
 <%= link_to image_tag("sanfrancisco.jpg"), edit_user_path(@user, :city => "San Francisco") %>
-<div class="citylisttitle">San Francisco</div>
+<div class="citylisttitle"><%= link_to "San Francisco" , edit_user_path(@user, :city => "San Francisco") %></div>
 </li>
 
 <li>
 <%= link_to image_tag("boston.jpg"), edit_user_path(@user, :city => "Boston") %>
-<div class="citylisttitle">Boston</div>
+<div class="citylisttitle"><%= link_to "Boston" , edit_user_path(@user, :city => "Boston") %></div>
 </li>
 
 
