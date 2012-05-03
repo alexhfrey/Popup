@@ -28,28 +28,33 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<h1 id="logo" class="span4"><a href="events.html" title="Business"><span class="red">LOVE</span> POPUP</a><%= image_tag "beta.png" , :style=>"margin-top:5px" %></h1>
-					<nav class="span8" id="navigation">
-					<ul class="nav nav-pills">
-					<li><a href="index.html">About</a></li>
-					<li class="active"><a href="2col.html">Invite</a></li>
-					</ul>
-					</nav>
+					<h1 id="logo" class="span4"><a href="/events" title="Business"><span class="red">LOVE</span> POPUP</a><%= image_tag "beta.png" , :style=>"margin-top:5px" %></h1>
+
+<div id="row">
+<div id="rightclass">
+<nav class="span8" id="navigation">
+<ul class="nav pull-right">
+<li id="fat-menu" class="dropdown">
+<% if @current_user.present?  %>	
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <%= @current_user.name.split(" ").first %>
+<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="/city.html">Change City</a></li>
+<li><%= link_to "Logout", signout_path %></li>
+<li class="divider"></li>
+<% end %>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+
 				</div>
 			</div>
 			</header>
 			
-			<div class="subnav">	
-			<div class="container">
-			<nav class="span8">	
-			<ul class="nav nav-pills">
-			<li><a href="/events/?cat=fashion"><h3>FASHION   <%= image_tag "fashionicon.png" %></h3></a></li>
-			<li><a href="/events/?cat=food"><h3>FOOD         <%= image_tag "foodicon.png" %></h3></a></li>
-			<li><a href="/events/?cat=art"><h3>ART           <%= image_tag "articon.png" %></h3></a></li>
-			</ul>
-			</nav>
-			</div>
-			</div>
+		
 </head>
 <body>
 

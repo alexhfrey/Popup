@@ -26,6 +26,7 @@ Popup::Application.routes.draw do
 
   resources :shares
   match "/auth/:provider/callback" => "sessions#create"
+  match '/signout' => "sessions#destroy", :as => :signout
   resources :events
   root :to => 'pages#welcome'
   # The priority is based upon order of creation:

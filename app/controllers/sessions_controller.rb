@@ -22,4 +22,10 @@ class SessionsController < ApplicationController
   redirect_to '/'
 
 end
+
+def destroy
+	session[:user_id] = nil
+	redirect_to root_url, :notice => "You have signed out successfully!"
+end
+
 end

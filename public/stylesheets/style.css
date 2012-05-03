@@ -461,7 +461,7 @@ button.btn.small,input[type="submit"].btn.small{*padding-top:3px;*padding-bottom
 .nav-tabs .dropdown-toggle:hover .caret,.nav-pills .dropdown-toggle:hover .caret{border-top-color:#005580;}
 .nav-tabs .active .dropdown-toggle .caret,.nav-pills .active .dropdown-toggle .caret{border-top-color:#333333;}
 .nav>.dropdown.active>a:hover{color:#000000;cursor:pointer;}
-.nav-tabs .open .dropdown-toggle,.nav-pills .open .dropdown-toggle,.nav>.open.active>a:hover{color:#ffffff;background-color:#999999;border-color:#999999;}
+.nav-tabs .open .dropdown-toggle,.nav-pills .open .dropdown-toggle,.nav>.open.active>a:hover{color:#ffffff;background-color:#ffffff;border-color:#ffffff;}
 .nav .open .caret,.nav .open.active .caret,.nav .open a:hover .caret{border-top-color:#ffffff;opacity:1;filter:alpha(opacity=100);}
 .tabs-stacked .open>a:hover{border-color:#999999;}
 .tabbable{*zoom:1;}.tabbable:before,.tabbable:after{display:table;content:"";}
@@ -651,7 +651,7 @@ header{background-color:#333333;background-image:url(/images/dvsup.png); box-sha
 -webkit-transform: rotate(-90deg);
 -moz-transform: rotate(-90deg);
 }
-#navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#eeeeee;padding:5px 5px;margin:29px 0 29px 10px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
+#navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#858585;padding:5px 5px;margin:10px 0 0px 0px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
 #top-slider{background-color:#333333;background-image:url(/images/dvsup.png);height:125px;margin-bottom:125px;}#top-slider h2,#top-slider p{color:#eeeeee;}
 #top-slider .slides_container,#top-slider .slides_container div{width:930px;height:240px;}
 #top-slider .slides_container{border:5px solid #555555;background-color:#555555;overflow:hidden;}
@@ -831,24 +831,6 @@ font-weight: bold;
 position: relative; 
 text-align: center;
 }
-
-.citylisttitle {
-float:left;
-height: 35px;
-width: 173px; 
-line-height: 24px;
-font-size: 22px; 
-color: #ffffff;
-padding-top: 0px;
-padding-right: 0px;
-margin-top: -90px;
-text-shadow: 1px 1px #747170;
-z-index: 3; 
-font-family: Century Gothic, sans-serif;
-font-weight: bold;
-position: relative; 
-text-align: center;
-}
 .citylisttitle a:link {color:#ffffff;font-size:22px;}
 .citylisttitle a:visited {color:#ffffff;font-size:22px;}
 .citylisttitle a:active {color:#ffffff;font-size:22px;}
@@ -868,4 +850,21 @@ font-size: 14px;
 
 .cityspace {
 height: 200px;
+}
+
+.droplist {
+font-size: 15px;
+color: #ffffff;
+} 
+
+.droplist a:link {color:#ffffff;font-size:15px;}
+.droplist a:visited {color:#ffffff;font-size:15px;}
+.droplist a:active {color:#ffffff;font-size:15px;}
+.droplist a:hover {color:#ffffff;font-size:15px;}
+
+.rightclass {
+float:right;
+margin-right: 0px;
+margin-left:10px;
+display: block;
 }

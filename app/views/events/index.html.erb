@@ -10,6 +10,12 @@
 					</p>
 					</div>
 
+					<ul class="nav nav-pills">
+			<li><a href="/events/?cat=fashion"><h3>FASHION   <%= image_tag "fashionicon.png" %></h3></a></li>
+			<li><a href="/events/?cat=food"><h3>FOOD         <%= image_tag "foodicon.png" %></h3></a></li>
+			<li><a href="/events/?cat=art"><h3>ART           <%= image_tag "articon.png" %></h3></a></li>
+			</ul>
+
 					<div class="eventlist">
 					<ul>
 					<% @events .each do |e| %>
