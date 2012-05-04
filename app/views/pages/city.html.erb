@@ -3,12 +3,12 @@
 <div class="span12">
 
 <div id="headline">
-<h2>Lookin' Good! Welcome aboard!</h2>
-<p>At the heart of Love Popup is our passion to help you discover great shopping experiences.</p><p>Don't see your city?  Please <a href="contact">reach out</a> to us, or in you're really lovin' it consider becoming a <a href="ambassador">Love Popup Ambassador!</a>
+<h2>Hello <%= @current_user.name.split(" ").first %>! Select your city:</h2>
+<br/>
+<p>At the heart of Love Popup is our passion to help you discover great shopping experiences.</p><p>Don't see your city?  Please <a href="contact">reach out</a> to us, or consider becoming a <a href="ambassador">Love Popup Ambassador!</a>
 </p> 
 </div>
 					
-<div class="cityquestion">Which city do you hail from?</div> 		
 <div class="citylist">
 <ul>
 <li>
