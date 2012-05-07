@@ -1,7 +1,7 @@
 class TryThisChangeAgain < ActiveRecord::Migration
 	def change
     change_table(:events) do |t|
-      t.drop :facebook
+      t.remove :facebook
       t.text :facebook
      
     end

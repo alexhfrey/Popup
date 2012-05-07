@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120507231617) do
+ActiveRecord::Schema.define(:version => 20120507233033) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(:version => 20120507231617) do
     t.text     "address"
     t.string   "tag1"
     t.string   "website"
-    t.string   "facebook"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "product1_info"
@@ -43,6 +42,7 @@ ActiveRecord::Schema.define(:version => 20120507231617) do
     t.text     "share_4"
     t.text     "share_5"
     t.text     "share_tags"
+    t.text     "facebook"
   end
 
   create_table "shares", :force => true do |t|
