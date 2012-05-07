@@ -7,7 +7,7 @@ class EventsController < ApplicationController
 	if @user.nil?
 		redirect_to pages_welcome_path and return
 	end 
-	if params[:cat]
+	if params[:cat].present?
     @events = Event.find_all_by_tag1_and_city(params[:cat], @user.city)
 	else
 	@events = Event.find_all_by_city(@user.city)
