@@ -837,3 +837,11 @@ height: 200px;
 text-decoration: underline; 
 text-color: #E55451; 
 }
+
+.line-separator{
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+}
+
+
