@@ -640,8 +640,8 @@ img.pull-left{margin-left:0;}
 img.pull-right{margin-right:0;}
 .red{color:#E55451;}
 body{background-image:url(/images/popupshopbg2.jpg);}
-header{background-color:#333333;background-image:url(/images/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
-#logo{padding:20px 0;font-family:'Arvo',serif;font-weight:400;}#logo a{color:#eeeeee;}#logo a:hover{text-decoration:none;}
+header{height:62px;background-color:#333333;background-image:url(/images/dvsup.png); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset}
+#logo{padding:10px 0;font-family:'Arvo',serif;font-weight:400;}#logo a{color:#eeeeee;}#logo a:hover{text-decoration:none;}
 #navigation ul{float:right;margin-bottom:0;}#navigation ul a{color:#eeeeee;padding:5px 5px;margin:29px 0 29px 10px;}#navigation ul a:hover{background-color:#E55451;color:#ffffff;}
 #top-slider{background-color:#333333;background-image:url(/images/dvsup.png);height:125px;margin-bottom:125px;}#top-slider h2,#top-slider p{color:#eeeeee;}
 #top-slider .slides_container,#top-slider .slides_container div{width:930px;height:240px;}
@@ -658,7 +658,7 @@ header{background-color:#333333;background-image:url(/images/dvsup.png); box-sha
 #featured.row{margin-top:10px;}#featured.row p{text-align:justify;}
 #read-more.row{margin-top:0;}
 #headlineme{border-bottom:0px;text-align:center;margin-right:10px;margin-bottom:20px;}#headlineme h2{font-family:'Arvo',serif;color:#ffffff;font-weight:400;font-size:22px;line-height:30px;}
-#headlineme h3{font-family:'Arvo',serif;color:#ffffff;font-weight:400;font-size:30px;line-height:36px;}
+#headlineme h3{font-family:'Arvo',serif;color:#ffffff;font-weight:400;font-size:38px;line-height:43px;}
 #sidebar{background-color:#ffffff;-webkit-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);-moz-box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);box-shadow:1px 1px 4px rgba(100, 100, 100, 0.5);}#sidebar input[type="text"],#sidebar textarea{width:260px;}
 #sidebar .content{padding:10px;}
 footer{margin-top:20px;padding:20px 0;background-color:#333333;background-image:url(/images/ftbg.png);color:#eeeeee;}
