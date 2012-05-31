@@ -24,12 +24,12 @@
   <br />
    <div class = "field">
 	 <p>City</p>
-      <%= f.text_field :city %>
+      <%= select("event", "city",["New York City", "Los Angeles", "San Francisco"]) %>
   </div>
     <br />
      <div class="field">
    <p>Category (Food, Fashion, Art)</p>
-    <%= f.text_field :tag1 %>
+    <%= select("event", "tag1",["Food", "Fashion", "Art"]) %>
   </div>
   <br />
   <div class="field">
