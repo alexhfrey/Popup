@@ -802,7 +802,7 @@ width: 100%, height: 100%;
     background: #000000;
     filter:alpha(opacity=50); /* IE */
     -moz-opacity:0.6; /* Mozilla */
-    opacity: 0.5; /* CSS3 */
+    opacity: 0.6; /* CSS3 */
     position: absolute;
     top: 0; left: 0;
     height: 50%; width:100%;
