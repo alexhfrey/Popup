@@ -9,8 +9,8 @@ Popup::Application.routes.draw do
   get "pages/about"
   match "/about" => "pages#about"
 
-  get "pages/ambassador"
-  match "/ambassador" => "pages#ambassador"
+  get "pages/retailers"
+  match "/retailers" => "pages#retailers"
   
   get "pages/contact"
   match "/contact" => "pages#contact"

@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   def about    
   end
 
-  def ambassador
+  def retailers
   end 
   
   def contact
